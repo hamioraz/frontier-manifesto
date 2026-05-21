@@ -2,10 +2,12 @@ baseURL = "https://frontiermanifesto.ai/"
 locale = "en-us"
 title = "Frontier Manifesto"
 theme = "PaperMod"
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [params]
   env = "production"
+  languageDirection = "ltr"
   title = "Frontier Manifesto"
   description = "AI builds Time"
   keywords = ["AI", "Agentic", "Enterprise", "Engineering", "Frontier"]
