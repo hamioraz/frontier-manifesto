@@ -1,0 +1,50 @@
+baseURL = "https://frontiermanifesto.ai/"
+locale = "en-us"
+title = "Frontier Manifesto"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  env = "production"
+  title = "Frontier Manifesto"
+  description = "AI builds Time"
+  keywords = ["AI", "Agentic", "Enterprise", "Engineering", "Frontier"]
+  author = "Gareth Manuel"
+  defaultTheme = "dark"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowFullTextinRSS = true
+
+  [params.cover]
+    hidden = true
+    hiddenInList = true
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/garethmanuel"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
