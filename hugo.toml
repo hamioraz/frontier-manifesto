@@ -36,6 +36,11 @@ theme = "PaperMod"
     url = "/"
     weight = 10
   [[menu.main]]
+    identifier = "manifesto"
+    name = "Manifesto"
+    url = "/manifesto"
+    weight = 15
+  [[menu.main]]
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
