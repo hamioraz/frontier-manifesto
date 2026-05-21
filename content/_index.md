@@ -3,29 +3,21 @@ title: "The Frontier Manifesto"
 description: "A framework for human and agentic co-work in the workplace"
 ---
 
-*A framework for human and agentic co-work in the workplace*
+**AI builds Time.**
 
-[Skip to the manifesto](#the-frontier-manifesto)
+Every workflow automated, every toil task delegated to an agent, every repetitive decision encoded into a system - that is more Time built.
 
-This is a manifesto for organisations that own their technology outcomes, whether you have a team of two developers or two hundred.
+What you do with that Time is the real strategic choice.
 
-Agile transformed how organisations build and deliver software. Its values and principles remain sound, and for the majority of planned, human-led delivery work, it is still the right model.
+Spend it on slower thinking. Better judgment. Stronger systems. Customer outcomes. Or give it back to the people who earned it.
 
-But a new class of work is emerging alongside it. Agentic development, human and AI working in parallel, operating at a speed and scale that Agile's cadences weren't designed for. The ratio of Agile to agentic delivery will differ for every organisation. The Frontier Manifesto is a framework for the latter, not a replacement for the former.
+This is a manifesto for organisations that want to structurally change how work gets done.
 
-**AI builds Time.** Every workflow automated, every toil task delegated to an agent, every repetitive decision encoded into a system, that's Time built. What you do with that Time is up to you. Spend it on slower thinking? Give it back to the individuals who've earned it? Less execution. More intent.
+Agile is still important matters. For planned, human-led delivery, it remains a strong operating model. But a new class of work is emerging alongside it: agentic development, where humans and AI work in parallel to compress delivery, reduce toil, and turn intent into working systems faster.
 
-The paradox is this: AI adoption is accelerating, the tools are genuinely powerful, and yet most organisations feel like they're still waiting for the real transformation to arrive.
+This manifesto is not a replacement for Agile.
 
-Right now, progress is primarily "here are the tools, you figure out the rest." There is no organisational ownership. No shared approach. No one accountable for turning individual capability into collective progress. Tools like Copilot, ChatGPT, and Claude are a step change for individuals, and SaaS providers are finding meaningful ways to embed AI into their core solutions. The most progressive developers are already going further, leveraging agentic coding tools like Cursor, Codex, and Claude Code to collaborate on proprietary AI skills, build shared patterns, and find new ways to compress delivery. But this is happening in pockets. The organisations that employ them haven't caught up.
-
-Individual productivity doesn't compound into organisational capability. A workforce of individually-augmented people is not the same as a workplace that has structurally changed how work gets done.
-
-And there's a deeper problem underneath this. In these organisations, engineering effort, whether internal or procured, rightly flows toward customers first. But by the time a new capability ships, the business has already moved on to the next priority. Internal users are left behind, inheriting manual processes where automated ones should exist, accumulating toil that never gets engineered away. The people closest to the work are the last to benefit from it.
-
-The organisations that figure this out won't just be more efficient. They'll be more intentional, and more considered to those that make it all possible.
-
-*This is how we build it.*
+*It's a framework for human and agentic co-work in the workplace*
 
 ---
 
@@ -106,3 +98,32 @@ Human attention is scarce and should be spent where it creates the most value.
 
 ### 10. Continuously improve the agentic system, not just the product
 The capability to build becomes a competitive advantage in itself.
+
+---
+
+
+## Why this matters?
+
+AI adoption is accelerating. The tools are genuinely powerful. But most organisations still feel like they are waiting for the real transformation to arrive.
+
+The problem is not access to tools.
+
+The problem is organisational ownership.
+
+Right now, progress is too often left to individuals: “here are the tools, you figure out the rest.” Copilot, ChatGPT, Claude, Cursor, Codex, and Claude Code can all lift individual productivity. But individual productivity does not automatically compound into organisational capability.
+
+A workforce of individually augmented people is not the same as a workplace that has structurally changed how work gets done.
+
+There is also a deeper problem.
+
+Engineering effort, whether internal or procured, rightly flows toward customers first. But by the time a new capability ships, the business has already moved to the next priority. Internal users are left behind, inheriting manual processes where automated ones should exist, accumulating toil that never gets engineered away.
+
+The people closest to the work are often the last to benefit from it.
+
+The organisations that figure this out will not just be more efficient.
+
+They will be more intentional.
+
+They will reduce waste, compress delivery, and build better systems of work.
+
+They will build Time.
