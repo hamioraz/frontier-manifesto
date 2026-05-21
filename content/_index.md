@@ -3,9 +3,9 @@ title: "The Frontier Manifesto"
 description: "A framework for human and agentic co-work in the workplace"
 ---
 
-# The Frontier Manifesto
-
 *A framework for human and agentic co-work in the workplace*
+
+[Skip to the manifesto](#the-frontier-manifesto)
 
 This is a manifesto for organisations that own their technology outcomes, whether you have a team of two developers or two hundred.
 
@@ -29,17 +29,49 @@ The organisations that figure this out won't just be more efficient. They'll be 
 
 ---
 
+# The Frontier Manifesto
+
 ## We value:
 
-- **Intent over tickets**
-- **Working systems over working software**
-- **Fast learning over sprint cadence**
-- **Small empowered teams over scaled delivery structures**
-- **Human judgment over human effort**
-- **Architecture as code over architecture as documentation**
-- **Outcome evidence over velocity metrics**
+<table class="values-table">
+  <tr>
+    <td class="val-left">Intent</td>
+    <td class="val-over">over</td>
+    <td class="val-right">tickets</td>
+  </tr>
+  <tr>
+    <td class="val-left">Working systems</td>
+    <td class="val-over">over</td>
+    <td class="val-right">working software</td>
+  </tr>
+  <tr>
+    <td class="val-left">Fast learning</td>
+    <td class="val-over">over</td>
+    <td class="val-right">sprint cadence</td>
+  </tr>
+  <tr>
+    <td class="val-left">Small empowered teams</td>
+    <td class="val-over">over</td>
+    <td class="val-right">scaled delivery structures</td>
+  </tr>
+  <tr>
+    <td class="val-left">Human judgment</td>
+    <td class="val-over">over</td>
+    <td class="val-right">human effort</td>
+  </tr>
+  <tr>
+    <td class="val-left">Architecture as code</td>
+    <td class="val-over">over</td>
+    <td class="val-right">architecture as documentation</td>
+  </tr>
+  <tr>
+    <td class="val-left">Outcome evidence</td>
+    <td class="val-over">over</td>
+    <td class="val-right">velocity metrics</td>
+  </tr>
+</table>
 
-While the items on the right still have value, the items on the left matter more.
+<p><em>While the items on the right still have value, the items on the left matter more.</em></p>
 
 ---
 
