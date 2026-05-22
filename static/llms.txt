@@ -1,0 +1,9 @@
+# Frontier Manifesto
+
+> A framework for human and agentic co-work in the workplace.
+
+## Pages
+
+- [The Frontier Manifesto](https://frontiermanifesto.ai/manifesto): The core framework. Ten principles for organisations that own their technology outcomes.
+- [Agile wasn't designed for a world where AI agents are part of the team](https://frontiermanifesto.ai/posts/the-frontier-manifesto): The framing article. Why Agile needs a second stream for agentic delivery.
+- [About](https://frontiermanifesto.ai/about/): About the author, Gareth Manuel — software engineer and engineering leader with over twenty years of experience.
