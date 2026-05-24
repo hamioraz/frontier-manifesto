@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Frontier Manifesto — Creation Process</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap');
+
+  :root {
+    --human: #1a1a2e;
+    --agent: #c8964a;
+    --decision: #4a7c6f;
+    --loop: #8b4a6b;
+    --bg: #f5f0e8;
+    --line: #1a1a2e;
+    --muted: #8a8578;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    font-family: 'DM Sans', sans-serif;
+    padding: 48px 32px;
+    min-height: 100vh;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  header h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    color: var(--human);
+    letter-spacing: -0.5px;
+    margin-bottom: 6px;
+  }
+
+  header p {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .legend {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 1px;
+    color: var(--human);
+  }
+
+  .legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+
+  .diagram-wrap {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  svg {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .node-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    fill: #f5f0e8;
+    text-anchor: middle;
+    dominant-baseline: middle;
+  }
+
+  .node-sublabel {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    fill: rgba(245,240,232,0.6);
+    text-anchor: middle;
+    dominant-baseline: middle;
+    letter-spacing: 0.5px;
+  }
+
+  .arrow {
+    stroke: #1a1a2e;
+    stroke-width: 1.5;
+    fill: none;
+    marker-end: url(#arrowhead);
+  }
+
+  .arrow-loop {
+    stroke: #8b4a6b;
+    stroke-width: 1.5;
+    stroke-dasharray: 4 3;
+    fill: none;
+    marker-end: url(#arrowhead-loop);
+  }
+
+  .loop-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    fill: #8b4a6b;
+    letter-spacing: 0.5px;
+  }
+
+  .phase-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    fill: var(--muted);
+    letter-spacing: 2px;
+  }
+
+  .section-rule {
+    stroke: var(--muted);
+    stroke-width: 0.5;
+    stroke-dasharray: 2 4;
+    opacity: 0.4;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>The Frontier Manifesto — Creation Process</h1>
+  <p>Human Judgment &nbsp;·&nbsp; Agentic Execution &nbsp;·&nbsp; Feedback Loops</p>
+</header>
+
+<div class="legend">
+  <div class="legend-item">
+    <div class="legend-dot" style="background:#1a1a2e"></div>
+    Human Input / Output
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background:#c8964a"></div>
+    Agent Execution
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background:#4a7c6f"></div>
+    Human Decision
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background:#8b4a6b"></div>
+    Feedback Loop
+  </div>
+</div>
+
+<div class="diagram-wrap">
+<svg viewBox="0 0 600 1100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#1a1a2e" />
+    </marker>
+    <marker id="arrowhead-loop" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#8b4a6b" />
+    </marker>
+  </defs>
+
+  <!-- ── PHASE 1: CONCEPTION ─────────────────────────────── -->
+  <text x="300" y="30" class="phase-label" text-anchor="middle">Phase 1 — Conception</text>
+  <line x1="60" y1="38" x2="240" y2="38" class="section-rule"/>
+  <line x1="360" y1="38" x2="540" y2="38" class="section-rule"/>
+
+  <!-- H1: Human Input -->
+  <rect x="150" y="50" width="300" height="56" rx="4" fill="#1a1a2e"/>
+  <text x="300" y="72" class="node-label">Human Input</text>
+  <text x="300" y="88" class="node-sublabel">Thesis · Audience · Values · Intent</text>
+
+  <line x1="300" y1="106" x2="300" y2="136" class="arrow"/>
+
+  <!-- A1: Agent Staff Writer -->
+  <rect x="150" y="136" width="300" height="56" rx="4" fill="#c8964a"/>
+  <text x="300" y="158" class="node-label">Agent: Staff Writer</text>
+  <text x="300" y="174" class="node-sublabel">Structural options · Arrangement · Draft</text>
+
+  <line x1="300" y1="192" x2="300" y2="222" class="arrow"/>
+
+  <!-- D1: Human Decision -->
+  <polygon points="300,222 450,258 300,294 150,258" fill="#4a7c6f"/>
+  <text x="300" y="254" class="node-label">Human Decision</text>
+  <text x="300" y="270" class="node-sublabel">Accept / Reject / Redirect</text>
+
+  <!-- Loop 1 -->
+  <path d="M 150 258 C 80 258 80 164 150 164" class="arrow-loop"/>
+  <text x="40" y="209" class="loop-label" text-anchor="middle">Re-draft</text>
+  <text x="40" y="221" class="loop-label" text-anchor="middle">loop</text>
+
+  <line x1="300" y1="294" x2="300" y2="334" class="arrow"/>
+
+  <!-- ── PHASE 2: STRUCTURAL EDIT ────────────────────────── -->
+  <text x="300" y="324" class="phase-label" text-anchor="middle">Phase 2 — Structural Edit</text>
+
+  <!-- A2: Section Editor -->
+  <rect x="150" y="340" width="300" height="56" rx="4" fill="#c8964a"/>
+  <text x="300" y="362" class="node-label">Agent: Section Editor</text>
+  <text x="300" y="378" class="node-sublabel">Diagnose structure · Reorder · Sharpen opening</text>
+
+  <line x1="300" y1="396" x2="300" y2="426" class="arrow"/>
+
+  <!-- D2: Human Decision -->
+  <polygon points="300,426 450,462 300,498 150,462" fill="#4a7c6f"/>
+  <text x="300" y="458" class="node-label">Human Decision</text>
+  <text x="300" y="474" class="node-sublabel">Approve structure / Request revision</text>
+
+  <!-- Loop 2 -->
+  <path d="M 150 462 C 80 462 80 368 150 368" class="arrow-loop"/>
+  <text x="40" y="413" class="loop-label" text-anchor="middle">Revise</text>
+  <text x="40" y="425" class="loop-label" text-anchor="middle">loop</text>
+
+  <line x1="300" y1="498" x2="300" y2="538" class="arrow"/>
+
+  <!-- ── PHASE 3: CONSUMER PANEL ─────────────────────────── -->
+  <text x="300" y="528" class="phase-label" text-anchor="middle">Phase 3 — Consumer Research Panel</text>
+
+  <!-- 4 parallel agents -->
+  <rect x="30" y="544" width="120" height="72" rx="4" fill="#c8964a"/>
+  <text x="90" y="570" class="node-label">Agent</text>
+  <text x="90" y="586" class="node-sublabel">Developer</text>
+  <text x="90" y="600" class="node-sublabel">Persona</text>
+
+  <rect x="165" y="544" width="120" height="72" rx="4" fill="#c8964a"/>
+  <text x="225" y="570" class="node-label">Agent</text>
+  <text x="225" y="586" class="node-sublabel">Head of</text>
+  <text x="225" y="600" class="node-sublabel">Engineering</text>
+
+  <rect x="300" y="544" width="120" height="72" rx="4" fill="#c8964a"/>
+  <text x="360" y="570" class="node-label">Agent</text>
+  <text x="360" y="586" class="node-sublabel">CTO</text>
+  <text x="360" y="600" class="node-sublabel">Persona</text>
+
+  <rect x="435" y="544" width="120" height="72" rx="4" fill="#c8964a"/>
+  <text x="495" y="570" class="node-label">Agent</text>
+  <text x="495" y="586" class="node-sublabel">CEO</text>
+  <text x="495" y="600" class="node-sublabel">Persona</text>
+
+  <!-- Fan out -->
+  <line x1="300" y1="538" x2="90" y2="544" class="arrow"/>
+  <line x1="300" y1="538" x2="225" y2="544" class="arrow"/>
+  <line x1="300" y1="538" x2="360" y2="544" class="arrow"/>
+  <line x1="300" y1="538" x2="495" y2="544" class="arrow"/>
+
+  <!-- Converge -->
+  <line x1="90" y1="616" x2="300" y2="660" class="arrow"/>
+  <line x1="225" y1="616" x2="300" y2="660" class="arrow"/>
+  <line x1="360" y1="616" x2="300" y2="660" class="arrow"/>
+  <line x1="495" y1="616" x2="300" y2="660" class="arrow"/>
+
+  <!-- D3: Human Decision — Triage -->
+  <polygon points="300,660 450,696 300,732 150,696" fill="#4a7c6f"/>
+  <text x="300" y="692" class="node-label">Human Decision</text>
+  <text x="300" y="708" class="node-sublabel">Accept · Reject · Prioritise notes</text>
+
+  <!-- Loop 3: re-test -->
+  <path d="M 450 696 C 560 696 560 580 495 580" class="arrow-loop"/>
+  <text x="574" y="635" class="loop-label" text-anchor="middle">Re-test</text>
+  <text x="574" y="647" class="loop-label" text-anchor="middle">loop</text>
+
+  <line x1="300" y1="732" x2="300" y2="772" class="arrow"/>
+
+  <!-- ── PHASE 4: TARGETED EDITS ─────────────────────────── -->
+  <text x="300" y="762" class="phase-label" text-anchor="middle">Phase 4 — Targeted Edits</text>
+
+  <!-- A3: Staff Writer edits -->
+  <rect x="150" y="778" width="300" height="56" rx="4" fill="#c8964a"/>
+  <text x="300" y="800" class="node-label">Agent: Staff Writer</text>
+  <text x="300" y="816" class="node-sublabel">Apply accepted notes · Targeted revision</text>
+
+  <line x1="300" y1="834" x2="300" y2="864" class="arrow"/>
+
+  <!-- D4: Final review -->
+  <polygon points="300,864 450,900 300,936 150,900" fill="#4a7c6f"/>
+  <text x="300" y="896" class="node-label">Human Decision</text>
+  <text x="300" y="912" class="node-sublabel">Final review · Ready to publish?</text>
+
+  <!-- Loop 4 -->
+  <path d="M 150 900 C 80 900 80 807 150 807" class="arrow-loop"/>
+  <text x="40" y="851" class="loop-label" text-anchor="middle">More</text>
+  <text x="40" y="863" class="loop-label" text-anchor="middle">edits</text>
+
+  <line x1="300" y1="936" x2="300" y2="976" class="arrow"/>
+
+  <!-- ── OUTPUT + RETROSPECTIVE ──────────────────────────── -->
+  <text x="300" y="966" class="phase-label" text-anchor="middle">Output</text>
+
+  <!-- H2: Published -->
+  <rect x="150" y="982" width="300" height="56" rx="4" fill="#1a1a2e" stroke="#c8964a" stroke-width="2"/>
+  <text x="300" y="1004" class="node-label">Human Output</text>
+  <text x="300" y="1020" class="node-sublabel">Published · frontiermanifesto.ai</text>
+
+  <line x1="300" y1="1038" x2="300" y2="1058" class="arrow"/>
+
+  <!-- Retrospective loop back to Phase 1 -->
+  <text x="300" y="1048" class="phase-label" text-anchor="middle">Retrospective</text>
+  <path d="M 450 1010 C 580 1010 580 76 450 76" class="arrow-loop"/>
+  <text x="556" y="545" class="loop-label" writing-mode="tb">Informs next article</text>
+
+  <!-- A4: Analyst -->
+  <rect x="150" y="1062" width="300" height="56" rx="4" fill="#c8964a"/>
+  <text x="300" y="1084" class="node-label">Agent: Analyst</text>
+  <text x="300" y="1100" class="node-sublabel">Process reconstruction · Retrospective draft</text>
+
+</svg>
+</div>
+
+</body>
+</html>
