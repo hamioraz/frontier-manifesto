@@ -1,6 +1,7 @@
 name = "frontier-manifesto"
 compatibility_date = "2026-05-21"
 pages_build_output_dir = "public"
+build.command = "hugo --baseURL ${CF_PAGES_URL:-https://frontiermanifesto.ai/}"
 
 [vars]
 HUGO_VERSION = "0.161.1"
