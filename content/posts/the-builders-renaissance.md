@@ -2,6 +2,7 @@
 title: "The Builder's Renaissance"
 date: 2026-05-25
 draft: false
+weight: 2
 ---
 
 There's a moment that changes things.
@@ -112,11 +113,5 @@ But the renaissance isn't a solo performance. The leaders who will do this well 
 That's not humility as a soft skill. That's [human judgment over effort](/manifesto/#the-frontier-manifesto) as a structural advantage.
 
 The ideas on your shelf have been waiting long enough. The effort finally fits the reward. Just don't vibe alone.
-
----
-
-*Previous: [Agile wasn't designed for a world where AI agents are part of the team](/posts/the-frontier-manifesto/)*
-
-*Next: Developer Fatigue — coming soon.*
 
 *[The Frontier Manifesto Series](/posts/)*

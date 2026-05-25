@@ -2,6 +2,7 @@
 title: "Agile wasn't designed for a world where AI agents are part of the team"
 date: 2026-05-21
 draft: false
+weight: 1
 ---
 
 Agile transformed how organisations build and deliver software. Its values and principles remain sound. For planned, human-led delivery, it is still the right model. But it was written for a world where the team was entirely human.
