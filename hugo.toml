@@ -5,6 +5,10 @@ theme = "PaperMod"
 [pagination]
   pagerSize = 10
 
+[params.label]
+  icon       = "favicon.svg"
+  iconHeight = 30
+
 [params]
   images = ["social-preview.png"]
   env = "production"

@@ -1,3 +1,20 @@
+/* Header logo spacing */
+.logo a img {
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+/* Home page brand mark */
+.home-logo {
+  text-align: center;
+  margin: 2rem 0 1.5rem;
+}
+
+.home-logo img {
+  width: 96px;
+  height: 96px;
+}
+
 .values-table {
   width: 100%;
   border-collapse: collapse !important;
