@@ -2,7 +2,7 @@
   <!-- FM Favicon — Icon D with eroded border -->
   <!-- Canvas: 97×97 | Icon transform: translate(13, 9.5) -->
 
-  <rect width="97" height="97" fill="#ffffff"/>
+  <rect width="97" height="97" fill="transparent"/>
 
   <!-- ═══ ICON D ═══ -->
   <g transform="translate(13, 9.5)" fill="#0a0a0a">
