@@ -11,15 +11,11 @@ Taking on more and making it normal? What starts out as good intentions, without
 
 Here's an example that might sound familiar:
 
-A co-worker leaves and everyone else around steps up and does 20% more - they are proud of their work and their company, and they don't want either to fail.
-
-But if the backfill isn't replaced, then 120% gets normalised, and the backfill quietly gets deprioritised if those working 120% (or advocates for them) quietly accept their fate.
+> A co-worker leaves and everyone else around steps up and does 20% more - they are proud of their work and their company, and they don't want either to fail. But if the backfill isn't replaced, then 120% gets normalised, and the backfill quietly gets deprioritised if those working 120% (or advocates for them) quietly accept their fate.
 
 Now the same pattern, but with a new variant:
 
-The more productivity we extract from AI, the more we will want to keep extracting. It's even more addictive at pace - finally the reward justifies the effort!
-
-But if all the Time being built, gets automatically forfeit back on the pursuit of continual improvement, then the velocity of change becomes normalised. Rate of change, is the primary reward, which is indivisible.
+> The more productivity we extract from AI, the more we will want to keep extracting. It's even more addictive at pace - finally the reward justifies the effort! But if all the Time being built, gets automatically forfeit back on the pursuit of continual improvement, then the velocity of change becomes normalised. Rate of change, is the primary reward, which is indivisible.
 
 ## The Flow State
 
@@ -89,7 +85,9 @@ Talk about it with your engineers, especially those innovators and early adopter
 
 ### 3. Time Is the Reward
 
-Here is possibly my most important advice: Your engineers are building Time. Use Time as a reward.
+Here is possibly my most important advice: 
+
+> [Your engineers are building Time](/manifesto/#the-frontier-manifesto). Use Time as a reward.
 
 "We have no Time" - how many times have we all heard this being said? How many times do we say it ourselves? One of the first rewards for building Time for all, is getting some of this Time back - turning Time defect, into Time surplus.
 
